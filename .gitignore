@@ -1,0 +1,6 @@
+
+# Ignore arquivos relacionados às portas
+.env
+
+# Ignore a pasta node_modules
+node_modules
