@@ -4,9 +4,7 @@ import * as SearchController from '../controllers/searchController'
 
 const router= Router();
 
-router.get('/', (req: Request, res: Response)=> {
-    res.render('pages/home')
-})
+router.get('/', PageController.home);
 
 router.get('/dogs', PageController.dogController)
 
